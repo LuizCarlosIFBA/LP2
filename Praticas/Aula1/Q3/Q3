@@ -1,0 +1,13 @@
+Classe ComandaRestaurante
+    inicio 
+        atributo pesoConsumido, qtdBebida, pesoSobremesa
+   
+        //Considerando que todas as medidas estão em gramas
+
+        operacao criarComanda(pesoConsumido, qtdBebida, pesoSobremesa)
+        inicio
+            escreva(2*qtdBebida+40*pesoSobremesa+50*(pesoConsumido/1000))
+        fim
+    fim
+            
+             

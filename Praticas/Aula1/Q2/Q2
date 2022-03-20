@@ -1,0 +1,18 @@
+Classe Quadrado
+    inicio 
+        atributo largura
+    
+        //operacoes perimetro  P = 4 x L
+        operacao perimetro(largura)
+        inicio
+            escreva(4*largura)
+        fim
+   
+        //operacoes área do quadrado A = L * L
+        operacao area(largura)
+        inicio
+            escreva(largura*largura)
+        fim
+    fim
+            
+             

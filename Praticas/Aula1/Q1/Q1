@@ -1,0 +1,27 @@
+Classe ContaBancaria
+    inicio 
+        atributo cpf, nomeCorrentista, saldo
+    
+        //atributos adicionais
+        atributo dinheiro
+    
+        //operacoes conta
+        operacao depositar(dinheiro)
+        inicio
+            saldo = saldo + dinheiro
+        fim
+    
+        operacao sacar(dinheiro)
+        inicio
+            saldo = saldo - dinheiro
+        fim
+    
+        operacao consultar(cpf,nomeCorrentista,saldo)
+        inicio
+            //engenharia do método
+            //não deixei tão bem elaborado, porque sairia do escopo da aula
+            escreva saldo 
+        fim
+    fim
+            
+             
