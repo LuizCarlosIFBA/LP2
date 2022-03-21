@@ -12,7 +12,7 @@ import java.util.*;
 public class Aluno
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private boolean matriculado;
+    private String matricula;
     private String nome;
     private int anoIngresso;
     private String curso;
@@ -31,7 +31,7 @@ public class Aluno
         return nome;
     }
 
-    public int getMatricula(){ 
+    public String getMatricula(){ 
         return matricula;
     }
 
@@ -42,10 +42,7 @@ public class Aluno
     public String getCurso(){ 
         return curso;
     }
-
-    public boolean getMatriculado(){ 
-        return  matriculado;
-    }
+    
 
     /*Set*/
     public void setSituacaoAluno(boolean situacaoAluno){ 
@@ -60,8 +57,8 @@ public class Aluno
         this.nome = nome;
     }
 
-    public void setMatriculado(boolean matriculado){ 
-        this.matriculado = matriculado;
+    public void setMatriculado(String matriculado){ 
+        this.matricula = matricula;
     }
 
     public void setAnoIngresso(int anoIngresso){ 
@@ -76,21 +73,20 @@ public class Aluno
     /**
      * Construtor para objetos da classe Exercicio
      */
-    public void criar(int matriculado, String nome,int anoIngresso, String curso)
+    public void criarAluno(String matricula, String nome,int anoIngresso, String curso)
     {
         // inicializa variáveis de instância
-        this.matriculado = matriculado;
+        this.matricula = matricula;
         this.nome = nome;
         this.anoIngresso = anoIngresso;
         this.curso = curso;
-        //this.qtdDisciplinasMatriculadas=qtdDisciplinasMatriculadas;
-        //this.situacaoAluno=situacaoAluno;
+      
     }
 
    
-    public void matricular(int disciplinasMatriculadas){
-         this.disciplinasMatriculadas = disciplinasMatriculadas + 1;  
-    }
+    /*public void matricular(int disciplinasMatriculadas){
+         this.qtdDisciplinasMatriculadas  = qtdDisciplinasMatriculadas + 1;  
+    }*/
     
     public void imprimir(){
         System.out.println(matricula);
@@ -100,9 +96,8 @@ public class Aluno
     
     }
     
-    public int calcularPermanencia(int anoIngresso){
-        Calendar cal = GregorianCalendar.getInstance();
-        return cal.get(Calendar.YEAR) - anoIngresso;   
+    public int calcularPermanencia(int anoAtual){
+        return anoAtual - anoIngresso;   
     }
     
     public float calcularMensalidade(){
