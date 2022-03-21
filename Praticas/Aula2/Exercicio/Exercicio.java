@@ -81,12 +81,12 @@ public class Aluno
     }
     
     public void imprimir(){
-        System.out.println(this.matricula);
-        System.out.println(this.nome);
-        System.out.println(this.anoIngresso);
-        System.out.println(this.curso);
-        System.out.println(this.matriculado);
-        System.out.println(this.disciplinasMatriculadas); 
+        System.out.println(matricula);
+        System.out.println(nome);
+        System.out.println(anoIngresso);
+        System.out.println(curso);
+        System.out.println(matriculado);
+        System.out.println(disciplinasMatriculadas); 
     }
     
     public int calcularPermanencia(int anoIngresso){
