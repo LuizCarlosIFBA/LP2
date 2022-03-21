@@ -6,8 +6,17 @@ Classe ComandaRestaurante
 
         operacao criarComanda(pesoConsumido, qtdBebida, pesoSobremesa)
         inicio
+            pesoConsumido = pesoConsumido
+            qtdBebida = qtdBebida
+            pesoSobremesa = pesoSobremesa
+        fim
+         
+        operacao calcularTotal()
+        inicio
             escreva(2*qtdBebida+40*pesoSobremesa+50*(pesoConsumido/1000))
         fim
+        
+
     fim
             
              
