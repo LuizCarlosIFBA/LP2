@@ -2,9 +2,7 @@ Classe ContaBancaria
     inicio 
         atributo cpf, nomeCorrentista, saldo
     
-        //atributos adicionais
-        atributo dinheiro
-    
+        
         //operacoes conta
         operacao depositar(dinheiro)
         inicio
