@@ -11,13 +11,16 @@ Classe ContaBancaria
     
         operacao sacar(dinheiro)
         inicio
-            saldo = saldo - dinheiro
+            se(saldo>=0) entao
+                inicio
+                    saldo = saldo - dinheiro
+                fim
         fim
     
-        operacao consultar(cpf,nomeCorrentista,saldo)
+        operacao consultar()
         inicio
-            //engenharia do método
-            //não deixei tão bem elaborado, porque sairia do escopo da aula
+            escreva nomeCorrentista
+            escreva cpf
             escreva saldo 
         fim
     fim
