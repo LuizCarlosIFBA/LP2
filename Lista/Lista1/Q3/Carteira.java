@@ -18,31 +18,31 @@ public class Carteira
     
     /*Get*/
     public int getNumero(){ 
-        return numero;
+        return this.numero;
     }
 
     public char getCPF(){ 
-        return CPF[11];
+        return this.CPF[11];
     }
 
     public String getTipo(){ 
-        return tipo;
+        return this.tipo;
     }
 
     public Date getValidade(){ 
-        return validade;
+        return this.validade;
     }
 
     public Date getExpedicao(){ 
-        return  expedicao;
+        return  this.expedicao;
     }
     
     public int getPontos(){ 
-        return pontos;
+        return this.pontos;
     }
     
     public String getSituacao(){ 
-        return situacao;
+        return this.situacao;
     }
 
     /*Set*/

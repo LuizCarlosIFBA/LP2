@@ -20,27 +20,27 @@ public class Aluno
     private boolean situacaoAluno;
     /*Get*/
     public boolean getSituacaoAluno(){ 
-        return situacaoAluno;
+        return this.situacaoAluno;
     }
 
     public int getqtdDisciplinasMatriculadas(){ 
-        return qtdDisciplinasMatriculadas;
+        return this.qtdDisciplinasMatriculadas;
     }
     
     public String getNome(){ 
-        return nome;
+        return this.nome;
     }
 
     public String getMatricula(){ 
-        return matricula;
+        return this.matricula;
     }
 
     public int getAnoIngresso(){ 
-        return anoIngresso;
+        return this.anoIngresso;
     }
 
     public String getCurso(){ 
-        return curso;
+        return this.curso;
     }
     
 
@@ -88,16 +88,16 @@ public class Aluno
          this.qtdDisciplinasMatriculadas  = qtdDisciplinasMatriculadas + 1;  
     }*/
     
-    public void imprimir(){
+    /*public void imprimir(){
         System.out.println(matricula);
         System.out.println(nome);
         System.out.println(anoIngresso);
         System.out.println(curso);
     
-    }
+    }*/
     
     public int calcularPermanencia(int anoAtual){
-        return anoAtual - anoIngresso;   
+        return this.anoAtual - this.anoIngresso;   
     }
     
     public float calcularMensalidade(){

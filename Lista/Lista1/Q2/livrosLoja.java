@@ -16,23 +16,23 @@ public class livrosLoja
 
     /*Get*/
     public String getNome(){ 
-        return nome;
+        return this.nome;
     }
 
     public String getAutor(){ 
-        return autor;
+        return this.autor;
     }
     
     public double getCusto(){ 
-        return custo;
+        return this.custo;
     }
 
     public int getEdicao(){ 
-        return edicao;
+        return this.edicao;
     }
 
     public int getAno(){ 
-        return ano;
+        return this.ano;
     }
 
     /*Set*/
@@ -68,8 +68,9 @@ public class livrosLoja
         this.ano=ano;
     }
     
+    //per e o valor percentual
     public double precoVenda(double per){
-        return custo*per;
+        return this.custo*per;
     }
     
     public void imprimir()
@@ -79,7 +80,6 @@ public class livrosLoja
         System.out.println(custo);
         System.out.println(edicao);
         System.out.println(ano);
-        System.out.println(precoVenda(1.1));
     }
 
 }

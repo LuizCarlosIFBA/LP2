@@ -21,23 +21,23 @@ public class Aluno
 
     /*Get*/
     public String getNome(){ 
-        return nome;
+        return this.nome;
     }
 
     public int getMatricula(){ 
-        return matricula;
+        return this.matricula;
     }
 
     public int getAnoIngresso(){ 
-        return anoIngresso;
+        return this.anoIngresso;
     }
 
     public String getCurso(){ 
-        return curso;
+        return this.curso;
     }
 
     public boolean getMatriculado(){ 
-        return  matriculado;
+        return this.matriculado;
     }
 
     /*Set*/
@@ -91,7 +91,7 @@ public class Aluno
     
     public int calcularPermanencia(int anoIngresso){
         Calendar cal = GregorianCalendar.getInstance();
-        return cal.get(Calendar.YEAR) - anoIngresso;   
+        return cal.get(Calendar.YEAR) - this.anoIngresso;   
     }
     
     public float calcularMensalidade(){
