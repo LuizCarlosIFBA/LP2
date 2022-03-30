@@ -28,7 +28,7 @@ public class Medicamento
         this.nome=nome;
     }
     
-    public void setPrincipioAtivo(String PrincipioAtivo){
+    public void setPrincipioAtivo(String principioAtivo){
         this.principioAtivo=principioAtivo;
     }
     

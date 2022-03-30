@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Medicamento
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Medicamento\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getNome()
+comment10.params=
+comment10.target=double\ precoVenda()
+comment2.params=
+comment2.target=java.lang.String\ getPrincipioAtivo()
+comment3.params=
+comment3.target=double\ getCusto()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=principioAtivo
+comment5.target=void\ setPrincipioAtivo(java.lang.String)
+comment6.params=custo
+comment6.target=void\ setCusto(double)
+comment7.params=nome\ pincipioAtivo\ custo
+comment7.target=void\ criarMedicamento(java.lang.String,\ java.lang.String,\ double)
+comment7.text=\n\ Construtor\ para\ objetos\ da\ classe\ Medicamento\n
+comment8.params=nome\ custo
+comment8.target=void\ criarMedicamento(java.lang.String,\ double)
+comment9.params=per
+comment9.target=double\ precoVenda(double)
+numComments=11

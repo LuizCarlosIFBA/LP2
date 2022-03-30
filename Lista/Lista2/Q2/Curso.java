@@ -71,6 +71,6 @@ public class Curso
     }
     
     public double calcularMensalidade(){
-        return this.valorTotal/(8*6);
+        return this.valorTotal/(this.duracao*6);
     }
 }

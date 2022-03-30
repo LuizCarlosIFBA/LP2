@@ -8,77 +8,16 @@ import java.util.*;
 public class Carteira
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int numero;
-    private char CPF[] = new char[11];
-    private String tipo;
-    private Date validade;
-    private Date expedicao;
-    private int pontos;
-    private String situacao;
+    int numero;
+    char CPF[] = new char[11];
+    String tipo;
+    Date validade;
+    Date expedicao;
+    int pontos;
+    String situacao;
     
-    /*Get*/
-    public int getNumero(){ 
-        return this.numero;
-    }
-
-    public char getCPF(){ 
-        return this.CPF[11];
-    }
-
-    public String getTipo(){ 
-        return this.tipo;
-    }
-
-    public Date getValidade(){ 
-        return this.validade;
-    }
-
-    public Date getExpedicao(){ 
-        return  this.expedicao;
-    }
     
-    public int getPontos(){ 
-        return this.pontos;
-    }
-    
-    public String getSituacao(){ 
-        return this.situacao;
-    }
-
-    /*Set*/
-    public void setNumero(int numero){ 
-        this.numero=numero;
-    }
-
-    public void setCPF(char CPF[]){ 
-        this.CPF[11]=CPF[11];
-    }
-
-    public void setTipo(String tipo){ 
-        this.tipo=tipo;
-    }
-
-    public void setValidade(Date validade){ 
-        this.validade=validade;
-    }
-
-    public void setExpedicao(Date expedicao){ 
-        this.expedicao=expedicao;
-    }
-    
-    public void setPontos(int pontos){ 
-        this.pontos=pontos;
-    }
-    
-    public void setSituacao(String situacao){ 
-        this.situacao=situacao;
-    }
-
-    
-    /**
-     * Construtor para objetos da classe Carteira
-     */
-    public void criarCarteira(int numero, char CPF[], String tipo,Date validade,Date expedicao, int pontos, String situacao)
+    void criarCarteira(int numero, char CPF[], String tipo,Date validade,Date expedicao, int pontos, String situacao)
     {
         this.numero = numero;
         this.CPF[11] = CPF[11];
@@ -89,34 +28,32 @@ public class Carteira
         this.situacao = situacao;
     }
     
-    public void validarCarteira(){
-      //implementar mais tarde    
+    void validarCarteira(){
+         carteiraApreendida();
     }
     
-    public String CarteiraApreendida(){
+    String carteiraApreendida(){
         if(this.pontos>20){
-            setSituacao("apreendida");
+            return "Apreendida";
         }    
-        return "Sua carteira esta apreendida";    
+        return "Esta hapito a dirigir normalmente";    
     }
     
-    public int consultarPontos(){
+    int consultarPontos(){
         return this.pontos;
     }
     
-    public void zerarCarteira(){ 
+    void zerarCarteira(){ 
         this.pontos=0;
     }
     
-    public void acrescentarPontos(int qtdPontos){ 
+    void acrescentarPontos(int qtdPontos){ 
         this.pontos=pontos+qtdPontos;
-        CarteiraApreendida();
+        validarCarteira();
     }
     
-    public void decrementarPontos(int qtdPontos){ 
+    void decrementarPontos(int qtdPontos){ 
         this.pontos=pontos-qtdPontos;
     }
-    
-    
- 
+  
 }

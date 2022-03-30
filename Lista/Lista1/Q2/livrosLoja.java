@@ -8,58 +8,13 @@
 public class livrosLoja
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private String nome;
-    private String autor;
-    private double custo;
-    private int edicao;
-    private int ano;
+    String nome;
+    String autor;
+    double custo;
+    int edicao;
+    int ano;
 
-    /*Get*/
-    public String getNome(){ 
-        return this.nome;
-    }
-
-    public String getAutor(){ 
-        return this.autor;
-    }
-    
-    public double getCusto(){ 
-        return this.custo;
-    }
-
-    public int getEdicao(){ 
-        return this.edicao;
-    }
-
-    public int getAno(){ 
-        return this.ano;
-    }
-
-    /*Set*/
-    public void setNome(String nome){ 
-        this.nome=nome;
-    }
-
-    public void setAutor(String autor){ 
-        this.autor=autor;
-    }    
-    
-    public void setCusto(double custo){ 
-        this.custo = custo;
-    }
-
-    public void setEdicao(int edicao){ 
-        this.edicao = edicao;
-    }
-
-    public void setAno(int ano){ 
-        this.ano=ano;
-    }
-    
-    /**
-     * Construtor para objetos da classe livrosLoja
-     */
-    public void criarLivro(String nome, String autor, double custo, int edicao, int ano)
+    void criarLivro(String nome, String autor, double custo, int edicao, int ano)
     {
         this.nome=nome;
         this.autor=autor;
@@ -69,11 +24,11 @@ public class livrosLoja
     }
     
     //per e o valor percentual
-    public double precoVenda(double per){
+    double precoVenda(double per){
         return this.custo*per;
     }
     
-    public void imprimir()
+    void imprimir()
     {
         System.out.println(nome);
         System.out.println(autor);
