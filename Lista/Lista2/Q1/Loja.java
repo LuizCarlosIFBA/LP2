@@ -15,22 +15,16 @@ public class Loja
     private String nomeFantasia, razaoSocial;
     private String numeroCNPJ;
     private String digitoCNPJ;
-    private double valorFaturamento;
+    private float valorFaturamento;
     private double area;
     
-    //Servira para comparar lojas
+    //Servirao para comparar lojas
     List<Loja> lista = new ArrayList<Loja>();
-    
-    //Auxiliara na comparacao
-    private double maior = 0;
-    
+         
     //O publico alvo foi pedido no meio do enunciado, na hora que se cria um dos construtores de loja
     private String publicoAlvo;
     
-    public double getMaior(){
-        return this.maior;
-    }    
-    
+     
     public String getPublicoAlvo(){
         return this.publicoAlvo;
     }
@@ -51,16 +45,12 @@ public class Loja
         return this.digitoCNPJ;
     }
     
-    public double getValorFaturamento(){
+    public float getValorFaturamento(){
         return this.valorFaturamento;
     }
     
     public double getArea(){
         return this.area;
-    }
-    
-    public double setMaior(double maior){
-        return this.maior;
     }
     
     public String setNomeFantasia(String nomeFantasia){
@@ -83,7 +73,7 @@ public class Loja
         this.digitoCNPJ = digitoCNPJ;
     }
     
-    public void setValorFaturamento(double valorFaturamento){
+    public void setValorFaturamento(float valorFaturamento){
         this.valorFaturamento=valorFaturamento;
     }
     
@@ -99,7 +89,7 @@ public class Loja
        
     }
     
-     public Loja(String nomeFantasia, String numeroCNPJ, String digitoCNPJ, double valorFaturamento, String publicoAlvo){
+     public Loja(String nomeFantasia, String numeroCNPJ, String digitoCNPJ, float valorFaturamento, String publicoAlvo){
         this.nomeFantasia = nomeFantasia;
         this.numeroCNPJ = numeroCNPJ;
         this.digitoCNPJ = digitoCNPJ;
@@ -109,18 +99,23 @@ public class Loja
     
     public void gravar(Loja lojas){
         lista.add(lojas);//Grava
-        for(int i=0;i<lista.size();i++){ 
-            verificarFaturamento(this.maior,i);
-        }
-
-                
     }
     
-    public void verificarFaturamento(double maior,int i){
-        if(lista.get(i).getValorFaturamento()>maior){
-            this.maior = lista.get(i).getValorFaturamento();
-            System.out.println("A empresa que tem o maior faturamento e "+lista.get(i).getNomeFantasia());
-        }    
+    public void verificarFaturamento(){
+        compararFaturamento();
+        System.out.println("A empresa com maior faturamento e "+lista.get(compararFaturamento()).getNomeFantasia()+" A empresa com maior faturamento e "+lista.get(compararFaturamento()).getValorFaturamento());    
+    }    
+ 
+    public int compararFaturamento(){
+        float maior = lista.get(0).getValorFaturamento();
+        int indice = 0;
+        for(int i=0;i<lista.size();i++){
+            if(lista.get(i).getValorFaturamento()>maior){
+                indice = i;
+                maior = lista.get(i).getValorFaturamento();
+            }else indice = i;        
+        }
+        return indice;
     }
     
     //Poderia especializar mais o metodo, mas evitei criar mais deles para nao fugir do enunciado
