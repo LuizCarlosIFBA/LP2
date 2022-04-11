@@ -10,7 +10,7 @@ public class Medicamento
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private String nome;
     private String principioAtivo;
-    private double custo;
+    private float custo;
     
     public String getNome(){
         return this.nome;
@@ -20,7 +20,7 @@ public class Medicamento
         return this.principioAtivo;
     }
     
-    public double getCusto(){
+    public float getCusto(){
         return this.custo;
     }
     
@@ -32,31 +32,32 @@ public class Medicamento
         this.principioAtivo=principioAtivo;
     }
     
-    public void setCusto(double custo){
+    public void setCusto(float custo){
         this.custo = custo;
     }
 
     /**
      * Construtor para objetos da classe Medicamento
      */
-    public void criarMedicamento(String nome, String pincipioAtivo, double custo)
+    public Medicamento(String nome, String pincipioAtivo, float custo)
     {
        this.nome = nome;
        this.principioAtivo = principioAtivo;
        this.custo = custo;
     }
     
-    public void criarMedicamento(String nome, double custo)
+    public Medicamento(String nome, float custo)
     {
-       this.nome = nome;
-       this.custo = custo;
+       this(nome, nome, custo);
     }
 
-    public double precoVenda(double per){
-        return this.custo*per;        
+    public float precoVenda(float lucro){
+        float preco=0;
+        preco = this.custo + this.custo*lucro/100;
+        return preco;        
     }
     
     public double precoVenda(){
-        return this.custo*1.3;        
+        return this.precoVenda(30);     
     }
 }

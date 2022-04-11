@@ -66,8 +66,7 @@ public class Loja
         this.digitoCnpj = digitoCnpj;
     }
 
-    public Loja(String nomeFantasia, String cnpj, 
-    String digitoCnpj, float faturamento, String pubAlvo) {
+    public Loja(String nomeFantasia, String cnpj, String digitoCnpj, float faturamento, String pubAlvo) {
         String publicoAlvo = pubAlvo;
         this.nomeFantasia = nomeFantasia;
         this.razSocial = nomeFantasia;
@@ -77,8 +76,8 @@ public class Loja
     }  
 
     public boolean maiorFat(Loja x) {
-    	if(this.faturamento > x.getFaturamento()){
-		return true;
+        if(this.faturamento > x.getFaturamento()){
+        return true;
         } else return false; 
     }
 

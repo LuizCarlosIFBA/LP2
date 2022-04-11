@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Laboratorio
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Laboratorio\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=double\ getPercentualLucro()
+comment2.params=percentualLucro
+comment2.target=void\ setPercentualLucro(double)
+comment3.params=cnpj\ nome\ email\ telefone\ percentualLucro
+comment3.target=Laboratorio(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+numComments=4

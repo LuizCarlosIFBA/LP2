@@ -1,8 +1,15 @@
+
+/**
+ * Escreva uma descrição da classe Laboratorio aqui.
+ * 
+ * @author (seu nome) 
+ * @version (um número da versão ou uma data)
+ */
 public class Laboratorio {
     private String cnpj;
     private String nome;
     private String email;
-    private char telefone[] = new char[13];
+    private String telefone;
     private double percentualLucro;
 
     public double getPercentualLucro() {
@@ -13,12 +20,13 @@ public class Laboratorio {
         this.percentualLucro = percentualLucro;
     } 
 
-    public Laboratorio(String cnpj, String nome, String email, char telefone[], double percentualLucro){
+    public Laboratorio(String cnpj, String nome, String email, String telefone, double percentualLucro){
         this.nome = nome;
         this.cnpj = cnpj;
         this.email = email;
-        this.telefone[13] = telefone[13];
+        this.telefone = telefone;
         this.percentualLucro = percentualLucro;
     }
     
 }
+

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Shopping
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ loja\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getNome()
+comment2.params=nome
+comment2.target=void\ setNome(java.lang.String)
+comment3.params=x
+comment3.target=void\ gravarLoja(Loja)
+comment4.params=
+comment4.target=java.lang.String\ verificarMaiorFat()
+comment4.text=Um\ membro\ que\ permita\ verificar\ qual\ o\ nome\ de\ fantasia\ da\ loja\ com\ maior\ faturamento\ do\ shopping
+comment5.params=
+comment5.target=float\ calcularMediaAluguel()
+comment5.text=b)\ Um\ membro\ que\ permita\ verificar\ qual\ o\ faturamento\ m\u00E9dio\ das\ lojas\ com\ aluguel\ superior\ a\ R$1.000,00\ .
+numComments=6

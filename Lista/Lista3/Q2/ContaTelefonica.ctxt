@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ContaTelefonica
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ ContaTelefonica\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=int\ getMes()
+comment10.params=destino
+comment10.target=float\ calcularValorTotal(java.lang.String)
+comment2.params=mes
+comment2.target=void\ setMes(int)
+comment3.params=
+comment3.target=int\ getAnoReferencia()
+comment4.params=anoReferencia
+comment4.target=void\ setAnoReferencia(int)
+comment5.params=
+comment5.target=int\ getNumeroContrato()
+comment6.params=numeroContrato
+comment6.target=void\ setNumeroContrato(int)
+comment7.params=mes\ anoReferencia\ numeroContrato
+comment7.target=ContaTelefonica(int,\ int,\ int)
+comment8.params=mes\ anoReferencia\ numeroContrato\ ligacao
+comment8.target=ContaTelefonica(int,\ int,\ int,\ Ligacao)
+comment9.params=ligacoes
+comment9.target=float\ calcularValorTotal(Ligacao)
+numComments=11
