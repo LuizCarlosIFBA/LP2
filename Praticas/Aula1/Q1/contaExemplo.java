@@ -45,7 +45,7 @@ public class Conta
     
     public float sacar(float dinheiro)
     {
-        if(getSaldo()>=0){
+        if(getSaldo()>0){
             this.saldo = saldo - dinheiro;   
         }
         return dinheiro;
