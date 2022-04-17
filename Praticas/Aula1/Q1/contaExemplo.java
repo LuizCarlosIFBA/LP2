@@ -43,6 +43,7 @@ public class Conta
         this.saldo = saldo + dinheiro;   
     }
     
+    /*Se tiver saldo saca, se não tiver retorna zero*/
     public float sacar(float dinheiro)
     {
         if(getSaldo()>0 && getSaldo()>=dinheiro){
