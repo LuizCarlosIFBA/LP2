@@ -11,7 +11,7 @@ Classe ContaBancaria
     
         operacao sacar(dinheiro)
         inicio
-            se(saldo>=0) entao
+            se(saldo>0) entao
                 inicio
                     saldo = saldo - dinheiro
                 fim
