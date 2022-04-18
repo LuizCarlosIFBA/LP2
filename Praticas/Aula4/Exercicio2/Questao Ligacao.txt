@@ -1,0 +1,133 @@
+
+public class Tempo
+{
+    private int hora, minuto, segundo;
+    public Tempo (int hora, int minuto, int segundo){
+        this.hora = hora;
+        this.minuto = minuto;
+        this.segundo = segundo;
+    }
+    public int calcSegundos(){
+        return hora * 3600 + minuto * 60 + segundo;
+    }
+    public void setHora(int hora){
+        this.hora = hora;
+    }
+    public int getHora(){
+        return this.hora;
+    }
+    public int getMinuto(){
+        return this.minuto;
+    }
+    public int getSegundo(){
+        return this.segundo;
+    }
+}
+
+
+
+public class Ligacao
+{
+    private String localOrig, localDest, numOrig, numDest;
+    private Tempo inicio, termino;
+    
+    public Ligacao (String localOrig, String localDest, String numOrig, String numDest, Tempo inicio, Tempo termino){
+        this.localOrig = localOrig;
+        this.localDest = localDest;
+        this.numOrig = numOrig;
+        this.numDest = numDest;
+        this.inicio = inicio;
+        this.termino = termino;
+    }
+    public void setInicio(Tempo inicio){
+        this.inicio = inicio;
+    }
+    public Tempo getInicio(){
+        return this.inicio;
+    }
+    public int calcValorLigacao(){
+          int falado, total = 0;
+          int segIni, segTer;
+          segIni = inicio.calcSegundos();
+          segTer = termino.calcSegundos();
+          
+          falado = segTer - segIni;
+          total = falado / 60;
+          if (falado % 60 > 0)
+             total++;
+          
+          return total;
+    }
+    
+**    public boolean checaNumero(String telefone){
+        if (telefone.equals(numOrig) || telefone.equals(numDest))
+           return true;
+        else
+           return false;
+        }
+	
+public String getNumDest(){
+	return this.numDest;
+}
+	
+
+	
+
+   
+	
+}
+
+	
+
+public class Conta
+{
+    private String nome;
+    private int contrato, mes, ano;
+    private Ligacao[] listaLig = new Ligacao[100];
+    
+    public Conta(String nome, int contrato, int mes, int ano){
+        this.nome = nome;
+        this.contrato = contrato;
+        this.mes = mes;
+        this.ano = ano;
+    }
+    
+    public void addLigacao(Ligacao lig){
+        for (int i=0; i<100; i++)
+          if (listaLig[i] == null){
+               listaLig[i] = lig;
+               break;
+            }
+    }
+    public int totalConta(){
+        int total = 0;
+        for (int i=0; i<20; i++)
+          if (listaLig[i] != null)
+             total += listaLig[i].calcValorLigacao();
+        return total;
+    }
+
+**   public int totalConta(String tel){
+	int total = 0;
+	for (int i = 0;i<20;i++)
+		if (listaLig[i] !=null)
+			if (listaLig[i].getNumDest().equals(tel))
+		   total += listaLig[i].calcValorLigacao();  
+
+}
+
+
+**   public int totalConta(String tel){
+	int total = 0;
+	for (int i = 0;i<20;i++)
+		if (listaLig[i] !=null)
+			if (listaLig[i].checaNumero(tel))
+		   total += listaLig[i].calcValorLigacaol();  
+
+}
+
+
+
+
+
+
