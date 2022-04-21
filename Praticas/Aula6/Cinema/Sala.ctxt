@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Sala
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Sala\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=int\ getNumero()
+comment2.params=numero
+comment2.target=void\ setNumero(int)
+comment3.params=
+comment3.target=int\ getCapacidade()
+comment4.params=capacidade
+comment4.target=void\ setCapacidade(int)
+comment5.params=
+comment5.target=Sala()
+comment6.params=numero\ capacidade
+comment6.target=Sala(int,\ int)
+numComments=7

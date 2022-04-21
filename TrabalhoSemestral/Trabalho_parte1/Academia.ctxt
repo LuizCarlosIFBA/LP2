@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Academia
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Academia\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=Modalidade\ getEsporte()
+comment2.params=esporte
+comment2.target=void\ setEsporte(Modalidade)
+comment3.params=esporte
+comment3.target=Academia(Modalidade)
+numComments=4

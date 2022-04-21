@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Sala3d
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Sala3d\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getNomeEquipamento()
+comment2.params=nomeEquipamento
+comment2.target=void\ setNomeEquipamento(java.lang.String)
+comment3.params=numero\ capacidade\ nomeEquipamento
+comment3.target=Sala3d(int,\ int,\ java.lang.String)
+numComments=4

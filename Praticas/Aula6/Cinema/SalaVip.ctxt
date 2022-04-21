@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SalaVip
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ SalaVip\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getHorarios()
+comment2.params=horarios
+comment2.target=void\ setHorarios(java.util.ArrayList)
+comment3.params=numero\ capacidade\ horario
+comment3.target=SalaVip(int,\ int,\ java.util.Date)
+numComments=4
