@@ -13,4 +13,6 @@ comment5.params=
 comment5.target=Sala()
 comment6.params=numero\ capacidade
 comment6.target=Sala(int,\ int)
-numComments=7
+comment7.params=sala
+comment7.target=void\ gravar(Sala)
+numComments=8

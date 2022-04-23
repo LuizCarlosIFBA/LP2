@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Escreva uma descrição da classe Sala aqui.
  * 
@@ -9,7 +9,8 @@ public class Sala
 {
     private int numero;
     private int capacidade;
-
+    ArrayList<Sala> salas = new ArrayList();    
+    
     public int getNumero() {
         return numero;
     }
@@ -34,5 +35,8 @@ public class Sala
         this.numero = numero;
         this.capacidade = capacidade;
     }
-   
+        
+    public void gravar(Sala sala) {
+           salas.add(sala);
+    }
 }
