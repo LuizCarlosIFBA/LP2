@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AutomovelPasseio
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ AutomovelPasseio\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=int\ getQtdPesssoas()
+comment2.params=qtdPesssoas
+comment2.target=void\ setQtdPessoas(int)
+comment3.params=placa\ ano\ qtdPessoas
+comment3.target=AutomovelPasseio(java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=float\ valorPassage()
+numComments=5

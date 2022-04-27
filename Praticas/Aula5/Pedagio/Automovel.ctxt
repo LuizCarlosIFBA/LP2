@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Automovel
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Automovel\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getPlaca()
+comment2.params=placa
+comment2.target=void\ setPlaca(java.lang.String)
+comment3.params=
+comment3.target=int\ getAnoFabricacao()
+comment4.params=anoFabricacao
+comment4.target=void\ setAnoFabricacao(int)
+comment5.params=placa\ anoFabricacao
+comment5.target=Automovel(java.lang.String,\ int)
+comment6.params=p
+comment6.target=void\ addPassagem(Passagem)
+comment7.params=
+comment7.target=float\ valorPassagem()
+numComments=8
