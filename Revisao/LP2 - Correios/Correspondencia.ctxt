@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Correspondencia
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Correspondencia\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=data\ emitente\ destinatario
+comment1.target=Correspondencia(java.lang.String,\ Pessoa,\ Pessoa)
+comment2.params=
+comment2.target=float\ calcTaxa()
+comment3.params=
+comment3.target=Pessoa\ getDestinatario()
+comment4.params=
+comment4.target=void\ imprimir()
+numComments=5

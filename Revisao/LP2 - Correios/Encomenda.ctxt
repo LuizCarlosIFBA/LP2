@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Encomenda
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Encomenda\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=data\ emitente\ destinatario\ peso
+comment1.target=Encomenda(java.lang.String,\ Pessoa,\ Pessoa,\ float)
+comment2.params=peso
+comment2.target=void\ setPeso(float)
+comment3.params=
+comment3.target=float\ getPeso()
+comment4.params=
+comment4.target=float\ calcTaxa()
+comment5.params=
+comment5.target=void\ imprimir()
+numComments=6
