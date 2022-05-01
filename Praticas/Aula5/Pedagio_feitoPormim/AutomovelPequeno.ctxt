@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AutomovelPequeno
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ AutomovelPequeno\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getModelo()
+comment2.params=modelo
+comment2.target=void\ setModelo(java.lang.String)
+comment3.params=placa\ ano\ modelo
+comment3.target=AutomovelPequeno(java.lang.String,\ int,\ java.lang.String)
+comment4.params=
+comment4.target=float\ valorPassagem()
+numComments=5

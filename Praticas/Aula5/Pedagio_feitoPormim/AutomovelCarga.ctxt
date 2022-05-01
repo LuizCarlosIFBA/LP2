@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AutomovelCarga
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ AutomovelCarga\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=float\ getPesoMaximo()
+comment2.params=pesoMaximo
+comment2.target=void\ setPesoMaximo(int)
+comment3.params=placa\ ano\ peso
+comment3.target=AutomovelCarga(java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=float\ valorPassagem()
+numComments=5

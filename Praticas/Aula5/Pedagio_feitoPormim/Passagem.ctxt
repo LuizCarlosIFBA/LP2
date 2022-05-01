@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Passagem
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Passagem\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=horario
+comment1.target=Passagem(Data)
+comment2.params=
+comment2.target=Data\ getHorario()
+comment3.params=horario
+comment3.target=void\ setPassagem(Data)
+numComments=4

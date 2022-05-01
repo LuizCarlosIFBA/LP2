@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Pedagio
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Pedagio\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=int\ getQtdRegistro()
+comment2.params=qtdRegistro
+comment2.target=void\ setQtdRegistro(int)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getSite()
+comment6.params=site
+comment6.target=void\ setSite(java.lang.String)
+comment7.params=nome\ site
+comment7.target=Pedagio(java.lang.String,\ java.lang.String)
+comment8.params=carros
+comment8.target=void\ gravarCarros(Contrato)
+comment8.text=Grava\ veiculos
+comment9.params=carros
+comment9.target=void\ contarRegistro(Contrato)
+comment9.text=Quantidade\ de\ viagens
+numComments=10
