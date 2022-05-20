@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Data
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Data\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=int\ getDia()
+comment10.params=minuto
+comment10.target=void\ setMinuto(int)
+comment11.params=dia\ mes\ ano\ hora\ minuto
+comment11.target=Data(int,\ int,\ int,\ int,\ int)
+comment2.params=dia
+comment2.target=void\ setDia(int)
+comment3.params=
+comment3.target=int\ getMes()
+comment4.params=mes
+comment4.target=void\ setMes(int)
+comment5.params=
+comment5.target=int\ getAno()
+comment6.params=ano
+comment6.target=void\ setAno(int)
+comment7.params=
+comment7.target=int\ getHora()
+comment8.params=hora
+comment8.target=void\ setHora(int)
+comment9.params=
+comment9.target=int\ getMinuto()
+numComments=12
