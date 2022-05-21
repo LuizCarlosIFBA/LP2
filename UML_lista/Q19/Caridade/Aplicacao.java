@@ -1,14 +1,13 @@
 
 /**
- * Escreva uma descrição da classe Pessoa aqui.
+ * Escreva uma descrição da classe Aplicacao aqui.
  * 
  * @author (seu nome) 
  * @version (um número da versão ou uma data)
  */
-public class Pessoa
+public class Aplicacao
 {
-    private int idade;
-    private String nome, sobrenome, rg;
+    private Doadores doadores;
     
     public void buscarParentesco(){
     

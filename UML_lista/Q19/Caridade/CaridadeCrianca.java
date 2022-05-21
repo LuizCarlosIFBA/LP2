@@ -7,4 +7,5 @@
  */
 public class CaridadeCrianca extends Caridade
 {
+    Crianca crianca;
 }

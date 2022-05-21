@@ -9,5 +9,4 @@ public class Caridade
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private String nome, endereco, grupo;
-
 }

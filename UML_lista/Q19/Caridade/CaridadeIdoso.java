@@ -9,6 +9,6 @@ public class CaridadeIdoso extends Caridade
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private float idadeMinima;
-
+    private Idoso idoso;
    
 }
