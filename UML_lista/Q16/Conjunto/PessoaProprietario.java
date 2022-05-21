@@ -7,5 +7,5 @@
  */
 public class PessoaProprietario extends Pessoa
 {
-   
+    Residencia residencia;
 }

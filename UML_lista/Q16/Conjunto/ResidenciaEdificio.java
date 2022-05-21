@@ -8,8 +8,7 @@
 public class ResidenciaEdificio extends Residencia
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private String administrador;
-    private String porteiro;
+    private PessoaPorteiro porteiro;
     private Apartamento apartamento;
           
     public float calcularTaxa(){

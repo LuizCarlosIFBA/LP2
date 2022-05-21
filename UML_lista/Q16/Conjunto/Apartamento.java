@@ -14,4 +14,7 @@ public class Apartamento
     public float calcularConsumoMensal(){
         return 0; 
     }
+    
+    public void verificarTaxaGas(){ 
+    }
 }

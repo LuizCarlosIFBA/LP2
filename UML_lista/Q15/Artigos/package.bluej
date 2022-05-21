@@ -1,17 +1,17 @@
 #BlueJ package file
-dependency1.from=Eventos
-dependency1.to=Artigo
+dependency1.from=ArtigoLongo
+dependency1.to=Submissao
 dependency1.type=UsesDependency
-dependency2.from=Artigo
-dependency2.to=Pesquisador
+dependency2.from=Eventos
+dependency2.to=Artigo
 dependency2.type=UsesDependency
-dependency3.from=ArtigoLongo
-dependency3.to=Submissao
+dependency3.from=Artigo
+dependency3.to=Pesquisador
 dependency3.type=UsesDependency
-editor.fx.0.height=741
-editor.fx.0.width=1024
-editor.fx.0.x=129
-editor.fx.0.y=70
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 objectbench.height=96
 objectbench.width=801
 package.divider.horizontal=0.600297176820208

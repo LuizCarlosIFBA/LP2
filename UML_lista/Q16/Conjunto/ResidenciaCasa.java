@@ -7,7 +7,6 @@
  */
 public class ResidenciaCasa extends Residencia
 {
-    private String proprietario;
     private float areaTotal;
     
     public float calcularTaxa(){

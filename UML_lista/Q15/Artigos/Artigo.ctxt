@@ -5,4 +5,6 @@ comment1.params=qtdPaginas
 comment1.target=void\ setQtdPaginas(int)
 comment2.params=
 comment2.target=int\ getQtdPaginas()
-numComments=3
+comment3.params=
+comment3.target=int\ calcularQtdArtigo()
+numComments=4

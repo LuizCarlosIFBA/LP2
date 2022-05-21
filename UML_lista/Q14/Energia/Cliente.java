@@ -7,9 +7,10 @@
  */
 public abstract class Cliente
 {
-    private int numeroContrato;
+    private int numeroContrato, mes, ano;
     private String endereco;
     private float consumo;
     
     public abstract float calcularConsumo();
+    public abstract float arrecadacaoTotal();
 }

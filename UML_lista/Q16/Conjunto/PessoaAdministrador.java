@@ -5,7 +5,7 @@
  * @author (seu nome) 
  * @version (um número da versão ou uma data)
  */
-public class Administrador extends Pessoa
+public class PessoaAdministrador extends Pessoa
 {
-  
+  private ResidenciaEdificio edificio;  
 }

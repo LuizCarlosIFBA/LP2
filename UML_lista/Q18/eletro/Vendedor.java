@@ -7,5 +7,7 @@
  */
 public class Vendedor extends Pessoa
 {
-   
+   public String buscarMelhorVendedor(){
+       return ""; 
+   }
 }

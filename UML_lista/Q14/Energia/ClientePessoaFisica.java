@@ -5,11 +5,9 @@
  * @author (seu nome) 
  * @version (um número da versão ou uma data)
  */
-public class ClientePessoaFisica extends Cliente
+public class ClientePessoaFisica extends Pessoa
 {
     private String cpf;
     
-    public float calcularConsumo(){
-        return 0;
-    }   
+ 
 }

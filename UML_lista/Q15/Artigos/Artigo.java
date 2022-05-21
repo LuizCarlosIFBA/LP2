@@ -19,4 +19,8 @@ public class Artigo
     public int getQtdPaginas(){
         return this.qtdPaginas;
     }
+    
+    public int calcularQtdArtigo(){
+        return 0;
+    }
 }

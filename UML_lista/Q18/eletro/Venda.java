@@ -7,5 +7,5 @@
  */
 public class Venda
 {
-    Vendedor vendedor;
+    private Vendedor vendedor;
 }

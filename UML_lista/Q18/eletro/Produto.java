@@ -11,6 +11,7 @@ public abstract class Produto
     private int qtdEstoque;
     private float preco;
     private Venda venda;
-    
+    private NotaFiscal notafiscal;
+
     public abstract float calcularPrecoVenda();
 }

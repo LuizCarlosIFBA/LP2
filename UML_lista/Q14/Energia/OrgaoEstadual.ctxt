@@ -1,6 +1,4 @@
 #BlueJ class context
-comment0.target=ClienteEstadual
+comment0.target=OrgaoEstadual
 comment0.text=\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
-comment1.params=
-comment1.target=float\ calcularConsumo()
-numComments=2
+numComments=1

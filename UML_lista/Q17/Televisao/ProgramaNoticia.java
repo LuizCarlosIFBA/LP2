@@ -10,6 +10,8 @@ public class ProgramaNoticia extends Programa
    private Apresentador apresentador;
    
    public float calcularCusto(){
-        return 0;
+        return  calcularCusto()*0.1f;
    }
+   
+   
 }

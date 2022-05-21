@@ -11,4 +11,11 @@ public class Eventos
     private String nome, periodo, dataSubmissao;
     private Artigo artigo;
     
+    public float taxaInscricao(){
+        return 0;
+    }
+    
+    public float calcularTotalArrecadacao(){
+        return 0;
+    }
 }

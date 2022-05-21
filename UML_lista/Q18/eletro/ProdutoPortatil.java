@@ -8,7 +8,7 @@
 public class ProdutoPortatil extends ProdutoAudioVideo
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-  private float altura, largura;
+  private float altura, largura, peso;
    
   public float calcularPrecoVenda(){
       return 0;

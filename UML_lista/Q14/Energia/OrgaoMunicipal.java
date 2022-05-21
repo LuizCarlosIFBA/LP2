@@ -5,9 +5,7 @@
  * @author (seu nome) 
  * @version (um número da versão ou uma data)
  */
-public class ClienteMunicipal extends Cliente
+public class OrgaoMunicipal extends OrgaoPublico
 {
-    public float calcularConsumo(){
-        return 0;
-    }
+    
 }
