@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Medico
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Medico\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=java.lang.String\ getCrm()
+comment2.params=crm
+comment2.target=void\ setCrm(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getEspecialidade()
+comment4.params=especialidade
+comment4.target=void\ setEspecialidade(java.lang.String)
+comment5.params=
+comment5.target=float\ getValorConsulta()
+comment6.params=valorConsulta
+comment6.target=void\ setValorConsulta(float)
+comment7.params=cpf\ nome\ endereco\ telefone\ valorConsulta\ crm\ especialidade
+comment7.target=Medico(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ float,\ java.lang.String,\ java.lang.String)
+comment7.text=usar\ so\ o\ nome
+comment8.params=medico
+comment8.target=boolean\ substituirMedico(Medico)
+comment9.params=
+comment9.target=float\ CalcFaturamento()
+numComments=10

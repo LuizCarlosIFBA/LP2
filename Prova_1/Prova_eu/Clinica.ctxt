@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Clinica
+comment0.text=\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Clinica\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=convenios
+comment1.target=void\ addConvenio(Convenio)
+comment2.params=medicos
+comment2.target=void\ addMedico(Medico)
+numComments=3
