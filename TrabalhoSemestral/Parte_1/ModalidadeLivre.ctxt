@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ModalidadeLivre
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ ModalidadeTurma\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=
+comment1.target=java.lang.String\ getModalidade()
+comment2.params=modalidade
+comment2.target=void\ setModalidade(java.lang.String)
+comment3.params=
+comment3.target=java.util.Date\ getDia()
+comment4.params=dia
+comment4.target=void\ setDia(java.util.Date)
+comment5.params=nome\ preco\ modalidade\ dia
+comment5.target=ModalidadeLivre(java.lang.String,\ float,\ java.lang.String,\ java.util.Date)
+numComments=6
